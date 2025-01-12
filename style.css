@@ -1,0 +1,635 @@
+.close {
+    display: none;
+}
+
+.box1 {
+    background-color: #121212;
+    height: 25%;
+    width: 100%;
+    margin-bottom: 7px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box1 .sicon {
+    height: 22px;
+    margin: 21px;
+    margin-bottom: 5px;
+    width: 88px;
+}
+
+.box1 div {
+    display: flex;
+    flex-direction: row;
+}
+
+.box2 {
+    background-color: #121212;
+    height: 75%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.library {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    opacity: 0.5;
+}
+
+.library .hov1 {
+    margin-top: 20px;
+    margin-left: 5px;
+    font-weight: 700;
+    font-size: medium
+}
+
+.library:hover {
+    opacity: 1;
+}
+
+.box3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 340px;
+}
+
+.box4 {
+    margin: 10px;
+    max-width: 345px;
+    height: 250px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    flex-wrap: wrap;
+}
+
+.box5 {
+    background-color: rgb(51, 51, 51);
+    width: 345px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    margin-bottom: 30px;
+
+}
+
+.box5 div {
+    color: white;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.box2 .list ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 11px;
+    font-weight: lighter;
+    opacity: 0.6;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.box2 .list li {
+    list-style: none;
+}
+
+.box2 .list li a {
+    color: white;
+    text-decoration: none;
+}
+
+.box2 .list li a:hover {
+    text-decoration: underline;
+}
+
+header span {
+    font-size: 23px;
+    margin: 10px;
+    padding: 11px;
+    border-radius: 20px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    display: flex;
+    opacity:0.7;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+header>div {
+    padding-top: 12px;
+}
+
+.texts1 {
+    color: white;
+    opacity: 0.6;
+    font-weight: bolder;
+    font-size: 17px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+.texts1:hover {
+    opacity: 1;
+    font-size: 18px;
+}
+
+.texts2 {
+    background-color: white;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 13px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    margin-bottom: 19px;
+    cursor: pointer;
+}
+
+.texts2:hover {
+    padding: 13px 28px;
+    font-weight: 800;
+    font-size: 15.5px;
+}
+
+.find {
+    display: flex;
+    gap: 30px;
+    margin-right: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.list2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    color: white;
+    margin-left: 40px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 17px;
+
+}
+
+.list2 li {
+    list-style: none;
+    opacity: 0.5;
+    padding-top: 8px;
+    font-weight: 50;
+    font-size: 15px;
+}
+
+.list2 ul img {
+    height: 33px;
+    width: 33px;
+    background-color: rgb(52, 52, 52);
+    border-radius: 15px;
+    margin: 7px;
+}
+
+.list2 li:hover {
+    text-decoration: underline;
+    opacity: 1;
+    cursor: pointer;
+}
+
+.sep {
+    background-color: rgb(79, 79, 79);
+    height: 1.5px;
+    width: 1054px;
+    margin: 50px;
+    opacity: 0.7;
+    margin-top: 10px;
+
+}
+
+.sourav {
+    color: white;
+    margin: 30px 50px;
+    padding-bottom: 70px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: linear-gradient(90deg, #af2896, #509bf5);
+    height: 42px;
+    padding: 10px;
+    position: fixed;
+    bottom: 1px;
+    width: 98%;
+    margin: 7px;
+}
+
+.footer b {
+    color: white;
+    margin-left: 15px;
+    font-weight: 900;
+    font-size: small;
+}
+
+.footer .button {
+    padding: 0px 33px;
+    margin-right: 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: end;
+    font-size: small;
+}
+
+.footer p {
+    margin-top: 3px;
+    font-weight: 400;
+    margin-left: 13px;
+    color: white;
+}
+
+.play {
+    width: 50px;
+    height: 50px;
+    background-color: #38ca38;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 3px;
+    top: var(--z);
+    opacity: var(--a);
+    transition: all 0.5s;
+}
+
+
+.playbar {
+    position: sticky;
+    z-index: 10;
+    bottom: 100px;
+    min-height: 50px;
+    border-radius: 10px;
+    background-image: linear-gradient(90deg, #af2896, #509bf5);
+    width: 96.5%;
+    padding: 20px 12px;
+    filter: invert(1);
+}
+
+.songbutton {
+    gap: 20px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 10;
+}
+
+.songbutton img {
+    cursor: pointer;
+}
+
+.songList ul {
+    padding: 0 12px;
+    color: white;
+}
+
+.songList ul li {
+    list-style-type: decimal;
+    padding: 10px;
+    border: 2px solid rgb(238, 234, 228);
+    border-radius: 7px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.names {
+    font-size: 13px;
+}
+.names p{
+    width:90px;
+}
+.control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+
+.seekbar {
+    height: 4px;
+    width: 73vw;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    position: absolute;
+    bottom: 16px;
+    cursor: pointer;
+}
+
+.circle {
+    height: 18px;
+    width: 18px;
+    border-radius: 13px;
+    background-color: black;
+    position: relative;
+    bottom: 6.5px;
+    left: 0%;
+    transition: left 0.5s;
+}
+
+.songtime {
+    color: black;
+    padding: 0px 15px;
+    padding-right: 0px;
+    width: 100px;
+    font-size: 17px;
+}
+
+.songinfo {
+    color: black;
+    padding: 0px 15px;
+    width: 228px;
+    font-size: 18px;
+}
+
+.up {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hamburger {
+    display: none;
+    filter: invert(1);
+}
+
+.vol {
+    display: flex;
+}
+
+.vol img {
+    width: 20px;
+    position: relative;
+    right: 50px;
+}
+
+.volumebar {
+    position: absolute;
+    top: 22px;
+    right: 22px;
+    cursor: pointer;
+}
+
+.circle1 {
+    height: 18px;
+    width: 18px;
+    border-radius: 13px;
+    background-color: black;
+    position: relative;
+    bottom: 6.5px;
+    left: 0%;
+    transition: left 0.5s;
+}
+
+@media (max-width:1450px) {
+    .container1 {
+        position: absolute;
+        left: -100%;
+        transition: all 0.2s;
+        z-index: 100;
+        min-width:90vw;
+    }
+
+    .songList ul li {
+        height: 40px;
+    }
+
+    .container2 {
+        min-width:100%;
+        height: 105vh;
+        margin-top:0px;
+    }
+
+    header>div {
+        padding-top: 10px;
+    }
+
+    .texts1 {
+        padding-bottom: 6px;
+
+    }
+
+    .texts2 {
+        margin-bottom: 10px;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .artists {
+        display: flex;
+        flex-wrap: wrap;
+        gap:20px;
+    }
+
+    .artists2 {
+        display: flex;
+        flex-wrap: wrap;
+        gap:20px;
+    }
+
+    .artists3 {
+        display: flex;
+        flex-wrap: wrap;
+        gap:20px;
+    }
+
+    .playbar {
+        height: 125px;
+        width: 94.6%;
+        position: absolute;
+        z-index: 10;
+        bottom:11%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left:0.5%;
+    }
+
+    .up {
+        font-size: 25px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+
+    }
+
+    .songbutton {
+        margin-right: 20px;
+        width: 410px;
+    }
+
+    .songtime {
+        margin-top: 7px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 378px;
+    }
+
+    .songinfo {
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 378px;
+    }
+
+    .seekbar {
+        width: 95vw;
+    }
+
+    .close {
+        display: block;
+        height: 40px;
+        filter: invert(1);
+        position: absolute;
+        right: 5px;
+    }
+
+    .volumebar {
+        position: relative;
+        top: 5px;
+        left: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 360px;
+    }
+
+    .vol img {
+        width: 25px;
+        position: relative;
+        top: 11px;
+        right: -113px;
+        margin-top: -13px;
+    }
+    .box4 {
+        max-width: 370px;
+}
+.control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    gap:5px;
+}
+}
+
+@media (max-width:540px) {
+    .play{
+        display: none;
+    }
+    .playbar {
+        height: 125px;
+        width: 91.5%;
+        position: absolute;
+        z-index: 10;
+        bottom: 12%;
+    }
+    .find {
+        display: flex;
+        gap: 14px;
+        margin-right: 23px;
+        justify-content: center;
+        align-items: center;
+    }
+     .artists img{
+      min-height:290px;
+     }
+    
+     .artists2 img{
+        min-height: 334px;
+        min-width: 281px;
+     }
+     .artists3 img{
+        min-height: 364px;
+        min-width: 293px;
+     }
+    .artistsphoto1{
+        min-height: 448px;
+        min-width: 313px;
+    }
+    .hi{
+        min-height: 408px;
+        min-width: 305px;
+    }
+    h2{
+        font-size:20px;
+        width:205px;
+    }
+    .texts1 {
+        padding-bottom: 3px;
+        font-size: 12px;
+        max-width: 59px;
+    }
+
+    .texts2 {
+        margin-bottom: 10px;
+        font-size: 12px;
+        max-width: 56px;
+    }
+}
+@media (max-width:250px) {
+    .container1{
+        width:50vw;
+    }
+    .playbar {
+        height: 55px;
+        width: 94.5%;
+        position: absolute;
+        z-index: 10;
+        bottom: 5%;
+    }
+
+    .songbutton {
+        margin-right: 20px;
+        height: 19px;
+        width: 411px;
+        margin-top: 9px;
+    }
+
+    .songtime {
+        margin-top: 7px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 378px;
+        font-size: 14px;
+    }
+
+    .songinfo {
+        height: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 378px;
+        font-size: 14px;
+    }
+
+    .seekbar {
+        position: absolute;
+        bottom: 4px;
+    }
+}
